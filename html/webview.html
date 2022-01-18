@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=2" />
+
+    <script type="text/javascript">
+      function sendData(name,merchant,service,amount) {
+        document.getElementById("name").innerHTML =
+         " Customer Name: " + name;
+        document.getElementById("merchant").innerHTML =
+         " Merchant: " + merchant;
+        document.getElementById("service").innerHTML =
+         " Service : " + service;
+        document.getElementById("amount").innerHTML =
+         " Amount Paid : " + amount;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h4> Mobile Banking</h4>
+    <p id="name"></p>
+    <p id="merchant"></p>
+    <p id="service"></p>
+    <p id="amount"></p>
+  </body>
+</html>
